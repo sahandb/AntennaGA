@@ -1,6 +1,9 @@
 # AntennaGA
 Helping an antenna company to provides better setup antennas to cover a rectangular m × n area.
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 Assume a cell phone company needs to setup antennas to cover a rectangular m × n area. Company has k different type of antenna. 𝑐𝑖 is the cost of a 𝑖 typed antenna. 𝑟𝑖 is the coverage radius of a i typed antenna. Antennas are installed at grid positions. When the Euclidian distance between the antenna and the point is less than or equal to 𝑟𝑖 , that point is covered by that antenna. A point is considered covered when at least one antenna covers it.
 Company can install up to s antennas. However, they want to cover as much of the m × n grid as possible with minimum cost.
 You are asked to design and implement a genetic algorithm for the problem. m, n, s, k, 𝑐𝑖 and 𝑟𝑖 i = 1, …, k are given as input. The fitness value 𝑓 to maximize and summary of parameters are given as:
@@ -22,3 +25,4 @@ Then make an experiment with different parameter setups. Here are some parameter
 • Different crossover operators (arithmetic crossovers etc.)
 • Different selection mechanisms/pressures
 • Another possible encoding or another idea you have (just ask me before)
+
